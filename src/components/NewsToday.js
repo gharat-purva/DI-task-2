@@ -2,7 +2,7 @@ import React from 'react';
 
 function NewsToday() {
   return (
-    <section className="p-10 bg-gray-900 text-white">
+    <section className="py-16 h-screen bg-gray-900 text-white"> 
       <h2 className="text-3xl font-bold mb-6 text-center">News Today</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
         <div className="bg-placeholder p-4 rounded h-48 flex items-center justify-center">
